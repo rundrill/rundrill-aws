@@ -101,7 +101,7 @@ minutes, by **judging, not lecturing**:
    or Specialty cert*. Use it to choose the starting tier. If `profile.native_language` is empty, also
    ask once which language to explain in and save it with `record {action: "profile_set",
    native_language: "<lang>"}` — shared across courses, ask only when empty.
-2. Ask 5–8 small questions, one at a time — a one-line scenario and the AWS judgment (which storage
+2. Tell the learner it's a short placement (~6 quick questions) and ask 5–8 small questions **one at a time, announcing where they are each time** ("question 2 of ~6") — a one-line scenario and the AWS judgment (which storage
    for this need; security group vs NACL; what makes a subnet public; Multi-AZ vs read replica).
    Climb while they're right; settle one tier below the first where they miss twice.
 3. Save with `record {action: "diagnose", subject: "aws", level:
