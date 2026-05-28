@@ -1,0 +1,33 @@
+{
+  "name": "rundrill-aws",
+  "version": "0.1.0",
+  "description": "AWS cloud-certification coach — prep CLF/SAA/DVA/SOA/DEA/MLA, SAP/DOP, and the Security & Networking specialties by choosing the best service under constraints and reviewing real configs for the planted flaw, with drills, progress, mistake memory, and timed mock exams, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "repository": "https://github.com/rundrill/rundrill-aws",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": ["rundrill", "course", "coach", "drills", "aws", "cloud", "certification", "solutions-architect", "saa", "developer", "sysops", "devops", "security", "networking", "exam-prep"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "RunDrill AWS",
+    "shortDescription": "AWS cloud-cert coach: choose the best service under constraints, review configs for the planted flaw, sit timed mock exams.",
+    "longDescription": "An interactive AWS certification coach for the whole ladder — Foundational (Cloud Practitioner, AI Practitioner) → Associate (Solutions Architect, Developer, SysOps, Data Engineer, ML Engineer) → Professional (Solutions Architect, DevOps) → Specialty (Security, Advanced Networking). Blended drills pair an exam-style scenario decision (choose the BEST service for the stated constraint — cost, latency, availability, security — and say why NOT the plausible alternatives) with a hands-on console/CLI/IaC task you run in your own AWS account. Signature drill: review a real AWS config (an IAM policy, a security-group/NACL ruleset, a VPC route table, a CloudFormation/Terraform snippet) and find the planted flaw — over-broad permissions, a single point of failure, an insecure default, an unreachable route, a cost trap. Plus timed, domain-weighted mock exams as a per-cert boss battle. Backed by the RunDrill MCP engine with progress tracking and mistake memory.",
+    "developerName": "RunDrill",
+    "category": "Education",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://rundrill.com",
+    "defaultPrompt": [
+      "Start an AWS drill session.",
+      "Give me a scenario and let me choose the right service and justify it.",
+      "Show me an IAM policy and let me find what's wrong with it."
+    ],
+    "brandColor": "#FF9900",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

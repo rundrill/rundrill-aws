@@ -1,0 +1,13 @@
+{
+  "name": "rundrill-aws",
+  "displayName": "RunDrill AWS",
+  "version": "0.1.0",
+  "description": "AWS cloud-certification coach — prep CLF/SAA/DVA/SOA/DEA/MLA, SAP/DOP, and the Security & Networking specialties by choosing the best service under constraints and reviewing real configs for the planted flaw, with drills, progress, mistake memory, and timed mock exams, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": ["rundrill", "course", "coach", "drills", "aws", "cloud", "certification", "solutions-architect", "saa", "developer", "sysops", "devops", "security", "networking", "exam-prep"]
+}

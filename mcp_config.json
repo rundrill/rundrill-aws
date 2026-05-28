@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "rundrill-aws": {
+      "serverUrl": "https://mcp.rundrill.com/skills/aws"
+    }
+  }
+}
