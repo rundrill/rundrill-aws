@@ -1,0 +1,16 @@
+{
+  "name": "rundrill-aws",
+  "version": "0.1.3",
+  "description": "AWS cloud-certification coach \u2014 drills, progress, and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "mcpServers": {
+    "rundrill-aws": {
+      "serverURL": "https://mcp.rundrill.com/skills/aws"
+    }
+  }
+}
